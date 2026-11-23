@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Complete directory of 4K video showcases and downloadable creator packages." />
+  <title>All Videos & Releases — MediaHunt</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="videos">
+  <header id="site-header"></header>
+  <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+  <div class="app-shell">
+    <aside id="site-sidebar"></aside>
+    <main class="main-content">
+      
+      <div class="toolbar-bar">
+        <div>
+          <div class="section-title-group">
+            <div class="section-accent-bar"></div>
+            <h1 class="section-title">All Videos & Archive Releases</h1>
+          </div>
+          <p id="videos-count-label" class="section-subtitle">Loading releases...</p>
+        </div>
+        <div class="toolbar-group">
+          <select id="videos-cat-filter" class="filter-select" aria-label="Filter by category"></select>
+          <select id="videos-sort-filter" class="filter-select" aria-label="Sort releases">
+            <option value="latest">Latest First</option>
+            <option value="views">Most Viewed</option>
+            <option value="rating">Highest Rated</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="videos-grid" class="media-grid"></div>
+      <div id="videos-pagination" class="pagination"></div>
+    
+    </main>
+  </div>
+
+  <footer id="site-footer"></footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

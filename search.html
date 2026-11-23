@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Search across all 4K reels, VFX packs, tags, and creators." />
+  <title>Search Media — MediaHunt</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="search">
+  <header id="site-header"></header>
+  <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+  <div class="app-shell">
+    <aside id="site-sidebar"></aside>
+    <main class="main-content">
+      
+      <div class="toolbar-bar">
+        <div>
+          <h1 id="search-heading" class="section-title">Search Results</h1>
+          <p id="search-subheading" class="section-subtitle"></p>
+        </div>
+        <div class="toolbar-group">
+          <input
+            type="search"
+            id="search-page-input"
+            class="filter-select"
+            style="min-width: 230px;"
+            placeholder="Type keywords or #tags..."
+          />
+          <select id="search-cat-select" class="filter-select" aria-label="Filter search by category"></select>
+        </div>
+      </div>
+
+      <div id="search-results-grid" class="media-grid"></div>
+      <div id="search-pagination" class="pagination"></div>
+    
+    </main>
+  </div>
+
+  <footer id="site-footer"></footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

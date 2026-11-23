@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Learn about MediaHunt's architecture, design system, and open media discovery directory." />
+  <title>About — MediaHunt</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="about">
+  <header id="site-header"></header>
+  <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+  <div class="app-shell">
+    <aside id="site-sidebar"></aside>
+    <main class="main-content">
+      
+      <article class="prose-card">
+        <h1>About MediaHunt</h1>
+        <p><strong>MediaHunt</strong> is a fast, dark-themed media discovery and creator archive directory engineered with pure HTML5, CSS3, and modular Vanilla JavaScript.</p>
+        <h2>Platform Architecture</h2>
+        <ul>
+          <li><strong>Zero Mandatory Backend:</strong> Powered by a centralized <code>assets/js/data.js</code> catalog and client-side URL query routing, enabling instant deployment on GitHub Pages or any static CDN.</li>
+          <li><strong>Persistent Local Bookmarks:</strong> Your saved favorites are stored directly in your browser via <code>localStorage</code> without requiring account registration.</li>
+          <li><strong>Responsive Multi-Page Structure:</strong> Dedicated views for category browsing, trending leaderboards, real-time keyword/tag search, and HTML5 video playback with archive inspection.</li>
+        </ul>
+        <div style="margin-top: 24px; display: flex; gap: 12px; flex-wrap: wrap;">
+          <a href="videos.html" class="btn btn-primary">Explore Media Library</a>
+          <a href="contact.html" class="btn btn-secondary">Get in Touch</a>
+        </div>
+      </article>
+    
+    </main>
+  </div>
+
+  <footer id="site-footer"></footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

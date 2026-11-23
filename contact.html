@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Submit a release, report a broken link, or contact the MediaHunt team." />
+  <title>Contact — MediaHunt</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="contact">
+  <header id="site-header"></header>
+  <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+  <div class="app-shell">
+    <aside id="site-sidebar"></aside>
+    <main class="main-content">
+      
+      <article class="prose-card">
+        <h1>Contact & Release Submissions</h1>
+        <p>Have a 4K reel, VFX archive, or technical question? Send us a message using the form below.</p>
+        <form id="contact-form" class="form-grid">
+          <div class="form-group">
+            <label for="contact-name">Your Name or Creator Handle</label>
+            <input type="text" id="contact-name" class="form-control" required placeholder="e.g. VortexLabs" />
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Email Address</label>
+            <input type="email" id="contact-email" class="form-control" required placeholder="creator@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="contact-topic">Subject</label>
+            <select id="contact-topic" class="form-control">
+              <option value="submission">Submit New Media / ZIP Pack</option>
+              <option value="support">Technical Support</option>
+              <option value="copyright">Rights & Attribution Inquiry</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" rows="5" class="form-control" required placeholder="Include details or links..."></textarea>
+          </div>
+          <div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+        </form>
+        <p id="contact-feedback" style="display:none;color:var(--accent-green);margin-top:16px;font-weight:600;">
+          ✓ Thank you! Your inquiry has been logged.
+        </p>
+      </article>
+    
+    </main>
+  </div>
+
+  <footer id="site-footer"></footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

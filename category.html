@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Explore category releases, 4K videos, and downloadable ZIP archives." />
+  <title>Category — MediaHunt</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/logo.svg" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body data-page="category">
+  <header id="site-header"></header>
+  <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+  <div class="app-shell">
+    <aside id="site-sidebar"></aside>
+    <main class="main-content">
+      
+      <div id="category-strip-mount" class="category-strip"></div>
+
+      <div class="toolbar-bar">
+        <div>
+          <h1 id="category-page-title" class="section-title">Category</h1>
+          <p id="category-page-desc" class="section-subtitle"></p>
+        </div>
+        <div class="toolbar-group">
+          <label for="category-sort-select" style="font-size:0.84rem;color:var(--text-secondary);">Sort by:</label>
+          <select id="category-sort-select" class="filter-select">
+            <option value="latest">Latest Uploads</option>
+            <option value="views">Most Viewed</option>
+            <option value="rating">Top Rated</option>
+          </select>
+        </div>
+      </div>
+
+      <div id="category-media-grid" class="media-grid"></div>
+      <div id="category-pagination" class="pagination"></div>
+    
+    </main>
+  </div>
+
+  <footer id="site-footer"></footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
