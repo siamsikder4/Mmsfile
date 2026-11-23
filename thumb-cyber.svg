@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#0b0d14"/>
+      <stop offset="100%" stop-color="#e11d48" stop-opacity="0.45"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="75%" cy="25%" r="55%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <rect width="800" height="450" fill="url(#glow)"/>
+  <rect width="800" height="450" fill="url(#grid)"/>
+  <circle cx="640" cy="120" r="140" fill="none" stroke="#e11d48" stroke-opacity="0.3" stroke-width="2"/>
+  <circle cx="640" cy="120" r="95" fill="none" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1.5" stroke-dasharray="8 6"/>
+  <polygon points="375,180 375,250 435,215" fill="#ffffff" fill-opacity="0.16"/>
+  <rect x="44" y="318" width="110" height="4" rx="2" fill="#e11d48"/>
+  <text x="44" y="362" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="30" font-weight="800" letter-spacing="1.5">CYBERPUNK VORTEX</text>
+  <text x="44" y="394" fill="#94a3b8" font-family="monospace" font-size="16" font-weight="600" letter-spacing="2">4K HDR • 18:42</text>
+</svg>

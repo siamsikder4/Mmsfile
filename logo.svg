@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 44" width="220" height="44">
+  <defs>
+    <linearGradient id="lg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff2a5f"/>
+      <stop offset="100%" stop-color="#ff7a00"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="4" width="36" height="36" rx="9" fill="url(#lg)"/>
+  <polygon points="15,13 15,31 30,22" fill="#ffffff"/>
+  <text x="48" y="29" fill="#ffffff" font-family="system-ui, -apple-system, sans-serif" font-size="22" font-weight="900" letter-spacing="0.5">MEDIA<tspan fill="#ff2a5f">HUNT</tspan></text>
+</svg>
